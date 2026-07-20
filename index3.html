@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="d-flex items-center gap-100">
+            <div class="logo">
+                <a href="/index.html">morent</a>
+            </div>
+            <form class="search-form">
+                <div class="search-wrapper">
+                    <div class="search-field">
+                        <button class="search-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <input type="text" placeholder="Search something here">
+                    </div>
+                    <button class="search-btn">
+                        <i class="fa-solid fa-sliders"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><i class="fa-solid fa-heart"></i></li>
+                <li><i class="fa-solid fa-bell"></i></li>
+                <li><i class="fa-solid fa-gear"></i></li>
+                <li><img src="images/Image.png" class="img-fluid" alt=""></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="view-container">
+        <aside>
+            <section id="type" class="side-section-container">
+                <div class="side-title">
+                    <h4>type</h4>
+                </div>
+                <form>
+                    <ul class="side-filters">
+                        <li>
+                            <input type="checkbox"  checked>
+                            <p>Sport</p>
+                            <span>(10)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" checked>
+                            <p>SUV</p>
+                            <span>(12)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>MPV</p>
+                            <span>(16)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>Sedan</p>
+                            <span>(20)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>Coupe</p>
+                            <span>(14)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>Hatchback</p>
+                            <span>(14)</span>
+                        </li>
+                    </ul>
+                </form>
+                
+            </section>
+
+            <section id="capacity" class="side-section-container">
+                <div class="side-title">
+                    <h4>Capacity</h4>
+                </div>
+                <form>
+                    <ul class="side-filters">
+                        <li>
+                            <input type="checkbox" checked>
+                            <p>2 Person</p>
+                            <span>(10)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>4 Person </p>
+                            <span>(14)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>6 Person</p>
+                            <span>(12)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>8 or More</p>
+                            <span>(16)</span>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+
+            <section id="capacity" class="side-section-container">
+                <div class="side-title">
+                    <h4>Price</h4>
+                </div>
+                <form>
+                    <input type="range" >
+                    <p>Max. $100.00</p>
+                </form>
+            </section>
+            
+        </aside>
+        <section class="items-section">
+            <div class="product-container">
+                <div class="product-imgs">
+                    <div class="product-main-img">
+                        <img src="images/View.png" alt="">
+                    </div>
+                    <div class="product-sub-img">
+                        <div class="sub-img active">
+                            <img src="images/View 1.png" alt="">
+                        </div>
+                        <div class="sub-img">
+                            <img src="images/View 2.png" alt="">
+                        </div>
+                        <div class="sub-img">
+                            <img src="images/View 3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <div class="details-container">
+                        <div class="product-heading">
+                            <div class="product-main">
+                                <h2>Nissan GT - R</h2>
+                                <div class="product-reviews">
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star rating-star-filled"></i>
+                                        <i class="fa-solid fa-star rating-star-filled"></i>
+                                        <i class="fa-solid fa-star rating-star-filled"></i>
+                                        <i class="fa-solid fa-star rating-star-filled"></i>
+                                        <i class="fa-regular fa-star rating-star"></i>
+                                    </div>
+                                    <div class="reviews">
+                                        <p>440+ Reviewer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-heart fav-icon"></i>
+                        </div>
+                        <div class="product-description">
+                            <p>NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the "race track".</p>
+                        </div>
+                        <div class="product-info">
+                            <div class="info-title">
+                                <h5>Type Car</h5>
+                                <p>Sport</p>
+                            </div>
+                            <div class="info-title">
+                                <h5>Capacity</h5>
+                                <p>2 Person</p>
+                            </div>
+                            <div class="info-title">
+                                <h5>Steering </h5>
+                                <p>Manual</p>
+                            </div>
+                            <div class="info-title">
+                                <h5>Gasoline</h5>
+                                <p>70L</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-rent">
+                        <div class="product-rent-price">
+                            <p>$80.00/ <span>days</span></p>
+                            <p>$100.00</p>
+                        </div>
+                        <button class="product-rent-btn">
+                            <a href="/index4.html">Rent Now</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews-feedback">
+                <div class="reviwes-heading">
+                    <h2>Reviews</h2>
+                    <span>13</span>
+                </div>
+                <div class="comments-container">
+                    <div class="comment-review">
+                        <img src="images/Profill1.png" alt="">
+                        <div class="comment-details">
+                            <div class="comment-user">
+                                <div class="comment-name">
+                                    <h2>Alex Stanton</h2>
+                                    <span>CEO at Bukalapak</span>
+                                </div>
+                                <div class="comment-date">
+                                    <span>21 July 2022</span>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star rating-star-filled"></i>
+                                        <i class="fa-solid fa-star rating-star-filled"></i>
+                                        <i class="fa-solid fa-star rating-star-filled"></i>
+                                        <i class="fa-solid fa-star rating-star-filled"></i>
+                                        <i class="fa-regular fa-star rating-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <p>
+                                    We are very happy with the service from the MORENT App. Morent has a low price and also a large variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-review">
+                        <img src="images/Profill.png" alt="">
+                        <div class="comment-details">
+                            <div class="comment-user">
+                                <div class="comment-name">
+                                    <h2>Skylar Dias</h2>
+                                    <span>CEO at Amazon</span>
+                                </div>
+                                <div class="comment-date">
+                                    <span>20 July 2022</span>
+                                    <div class="rating">
+                                        <i class="fa-solid fa-star rating-star-filled"></i>
+                                        <i class="fa-solid fa-star rating-star-filled"></i>
+                                        <i class="fa-solid fa-star rating-star-filled"></i>
+                                        <i class="fa-solid fa-star rating-star-filled"></i>
+                                        <i class="fa-regular fa-star rating-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <p>
+                                    We are greatly helped by the services of the MORENT Application. Morent has low prices and also a wide variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="show-comments-btn">Show All <i class="fa-solid fa-angle-down show-icon"></i></button>
+                </div>
+            </div>
+
+            <div class="recent-cars">
+                <div class="recent-heading">
+                    <h2>Recent Car</h2>
+                    <a href="#">View All</a>
+                </div>
+                <div class="recent-cards-container">
+                    <div class="card">
+                        <div class="card-heading">
+                            <div class="heading-details">
+                                <h2>Koenigsegg</h2>
+                                <p>Sport</p>
+                            </div>
+                            <i class="fa-solid fa-heart fav-icon"></i>
+                        </div>
+                        <div class="img-container">
+                            <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                            <div class="car-details">
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                    <p>90L</p>
+                                </div>
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                    <p>Manual</p>
+                                </div>
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-user-group detail-icon"></i>
+                                    <p>2 People</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-rent">
+                            <div class="rent-cost">
+                                <p>$99.00/<span>day</span></p>
+                            </div>
+                            <button class="card-rent-btn">
+                                <a href="/index3.html">
+                                    Rent Now
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-heading">
+                            <div class="heading-details">
+                                <h2>Koenigsegg</h2>
+                                <p>Sport</p>
+                            </div>
+                            <i class="fa-solid fa-heart fav-icon"></i>
+                        </div>
+                        <div class="img-container">
+                            <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                            <div class="car-details">
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                    <p>90L</p>
+                                </div>
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                    <p>Manual</p>
+                                </div>
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-user-group detail-icon"></i>
+                                    <p>2 People</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-rent">
+                            <div class="rent-cost">
+                                <p>$99.00/<span>day</span></p>
+                            </div>
+                            <button class="card-rent-btn">
+                                <a href="/index3.html">
+                                    Rent Now
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-heading">
+                            <div class="heading-details">
+                                <h2>Koenigsegg</h2>
+                                <p>Sport</p>
+                            </div>
+                            <i class="fa-solid fa-heart fav-icon"></i>
+                        </div>
+                        <div class="img-container">
+                            <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                            <div class="car-details">
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                    <p>90L</p>
+                                </div>
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                    <p>Manual</p>
+                                </div>
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-user-group detail-icon"></i>
+                                    <p>2 People</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-rent">
+                            <div class="rent-cost">
+                                <p>$99.00/<span>day</span></p>
+                            </div>
+                            <button class="card-rent-btn">
+                                <a href="/index3.html">
+                                    Rent Now
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-cars">
+                <div class="recent-heading">
+                    <h2>Recomendation Car</h2>
+                    <a href="#">View All</a>
+                </div>
+                <div class="recent-cards-container">
+                    <div class="card">
+                        <div class="card-heading">
+                            <div class="heading-details">
+                                <h2>Koenigsegg</h2>
+                                <p>Sport</p>
+                            </div>
+                            <i class="fa-solid fa-heart fav-icon"></i>
+                        </div>
+                        <div class="img-container">
+                            <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                            <div class="car-details">
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                    <p>90L</p>
+                                </div>
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                    <p>Manual</p>
+                                </div>
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-user-group detail-icon"></i>
+                                    <p>2 People</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-rent">
+                            <div class="rent-cost">
+                                <p>$99.00/<span>day</span></p>
+                            </div>
+                            <button class="card-rent-btn">
+                                <a href="/index3.html">
+                                    Rent Now
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-heading">
+                            <div class="heading-details">
+                                <h2>Koenigsegg</h2>
+                                <p>Sport</p>
+                            </div>
+                            <i class="fa-solid fa-heart fav-icon"></i>
+                        </div>
+                        <div class="img-container">
+                            <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                            <div class="car-details">
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                    <p>90L</p>
+                                </div>
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                    <p>Manual</p>
+                                </div>
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-user-group detail-icon"></i>
+                                    <p>2 People</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-rent">
+                            <div class="rent-cost">
+                                <p>$99.00/<span>day</span></p>
+                            </div>
+                            <button class="card-rent-btn">
+                                <a href="/index3.html">
+                                    Rent Now
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-heading">
+                            <div class="heading-details">
+                                <h2>Koenigsegg</h2>
+                                <p>Sport</p>
+                            </div>
+                            <i class="fa-solid fa-heart fav-icon"></i>
+                        </div>
+                        <div class="img-container">
+                            <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                            <div class="car-details">
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                    <p>90L</p>
+                                </div>
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                    <p>Manual</p>
+                                </div>
+                                <div class="car-detail">
+                                    <i class="fa-solid fa-user-group detail-icon"></i>
+                                    <p>2 People</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-rent">
+                            <div class="rent-cost">
+                                <p>$99.00/<span>day</span></p>
+                            </div>
+                            <button class="card-rent-btn">
+                                <a href="/index3.html">
+                                    Rent Now
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-heading">
+                <a href="#">morent</a>
+                <p>Our vision is to provide convenience and help increase your sales business.</p>
+            </div>
+            <div class="footer-sections">
+                <div class="footer-section">
+                    <div class="section-heading">
+                        <h2>About</h2>
+                    </div>
+                    <ul class="section-links">
+                        <li><a href="">How it works</a></li>
+                        <li><a href="">Featured</a></li>
+                        <li><a href="">Partnership</a></li>
+                        <li><a href="">Business Reltaion</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <div class="section-heading">
+                        <h2>Community</h2>
+                    </div>
+                    <ul class="section-links">
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Podcast</a></li>
+                        <li><a href="">Invite a friend</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <div class="section-heading">
+                        <h2>Socials</h2>
+                    </div>
+                    <ul class="section-links">
+                        <li><a href="">Discord</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-rights">
+            <div class="rights-title">
+                <h2>&copy;2022 MORENT.All rights reserved</h2>
+            </div>
+            <div class="footer-privacy">
+                <div class="policy">
+                    <a href="#">Privacy & Policy</a>
+                </div>
+                <div class="policy">
+                    <a href="#">Terms & Condition</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/js/all.min.js"
+        integrity="sha512-4dRoOomu6cU3VKBvnI1kykyZOqeQMAzo0KDfzQmd99ls4/uckwtxwHUedg/Z7n4lB4mwwWL3dcZW9ZlI3j7dAA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

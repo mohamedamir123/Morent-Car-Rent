@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="d-flex items-center gap-100">
+            <div class="logo">
+                <a href="/index.html">morent</a>
+            </div>
+            <form class="search-form">
+                <div class="search-wrapper">
+                    <div class="search-field">
+                        <button class="search-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <input type="text" placeholder="Search something here">
+                    </div>
+                    <button class="search-btn">
+                        <i class="fa-solid fa-sliders"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><i class="fa-solid fa-heart"></i></li>
+                <li><i class="fa-solid fa-bell"></i></li>
+                <li><i class="fa-solid fa-gear"></i></li>
+                <li><img src="images/Image.png" class="img-fluid" alt=""></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="view-container">
+        <aside>
+            <section id="type" class="side-section-container">
+                <div class="side-title">
+                    <h4>type</h4>
+                </div>
+                <form>
+                    <ul class="side-filters">
+                        <li>
+                            <input type="checkbox"  checked>
+                            <p>Sport</p>
+                            <span>(10)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" checked>
+                            <p>SUV</p>
+                            <span>(12)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>MPV</p>
+                            <span>(16)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>Sedan</p>
+                            <span>(20)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>Coupe</p>
+                            <span>(14)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>Hatchback</p>
+                            <span>(14)</span>
+                        </li>
+                    </ul>
+                </form>
+                
+            </section>
+
+            <section id="capacity" class="side-section-container">
+                <div class="side-title">
+                    <h4>Capacity</h4>
+                </div>
+                <form>
+                    <ul class="side-filters">
+                        <li>
+                            <input type="checkbox" checked>
+                            <p>2 Person</p>
+                            <span>(10)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>4 Person </p>
+                            <span>(14)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>6 Person</p>
+                            <span>(12)</span>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>8 or More</p>
+                            <span>(16)</span>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+
+            <section id="capacity" class="side-section-container">
+                <div class="side-title">
+                    <h4>Price</h4>
+                </div>
+                <form>
+                    <input type="range" >
+                    <p>Max. $100.00</p>
+                </form>
+            </section>
+            
+        </aside>
+        <div class="items-section">
+            <form class="location-form-2">
+                <div class="location-container">
+                    <div class="pick-up">
+                        <div class="pickup-head">
+                            <input type="radio">
+                            <span>Pick-Up</span>
+                        </div>
+                        <div class="selects">
+                            <div class="select">
+                                <h4>Locations</h4>
+                                <div class="location-menu">
+                                    <p>Select your city</p>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <hr class="vertical-hr">
+                            <div class="select">
+                                <h4>Date</h4>
+                                <div class="location-menu">
+                                    <p>Select your date</p>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <hr class="vertical-hr">
+                            <div class="select">
+                                <h4>Time</h4>
+                                <div class="location-menu">
+                                    <p>Select your time</p>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="switch-btn">
+                        <i class="fa-solid fa-up-down switch-icon"></i>
+                    </button>
+
+                    <div class="drop-off">
+                        <div class="dropoff-head">
+                            <input type="radio">
+                            <span>Drop-Off</span>
+                        </div>
+                        <div class="selects">
+                            <div class="select">
+                                <h4>Locations</h4>
+                                <div class="location-menu">
+                                    <p>Select your city</p>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <hr class="vertical-hr">
+                            <div class="select">
+                                <h4>Date</h4>
+                                <div class="location-menu">
+                                    <p>Select your date</p>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <hr class="vertical-hr">
+                            <div class="select">
+                                <h4>Time</h4>
+                                <div class="location-menu">
+                                    <p>Select your time</p>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="view-cards-container">
+                <div class="card">
+                    <div class="card-heading">
+                        <div class="heading-details">
+                            <h2>Koenigsegg</h2>
+                            <p>Sport</p>
+                        </div>
+                        <i class="fa-solid fa-heart fav-icon"></i>
+                    </div>
+                    <div class="img-container">
+                        <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                        <div class="car-details">
+                            <div class="car-detail">
+                                <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                <p>90L</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                <p>Manual</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-user-group detail-icon"></i>
+                                <p>2 People</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-rent">
+                        <div class="rent-cost">
+                            <p>$99.00/<span>day</span></p>
+                        </div>
+                        <button class="card-rent-btn">
+                            <a href="/index3.html">
+                                Rent Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heading">
+                        <div class="heading-details">
+                            <h2>Koenigsegg</h2>
+                            <p>Sport</p>
+                        </div>
+                        <i class="fa-solid fa-heart fav-icon"></i>
+                    </div>
+                    <div class="img-container">
+                        <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                        <div class="car-details">
+                            <div class="car-detail">
+                                <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                <p>90L</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                <p>Manual</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-user-group detail-icon"></i>
+                                <p>2 People</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-rent">
+                        <div class="rent-cost">
+                            <p>$99.00/<span>day</span></p>
+                        </div>
+                        <button class="card-rent-btn">
+                            <a href="/index3.html">
+                                Rent Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heading">
+                        <div class="heading-details">
+                            <h2>Koenigsegg</h2>
+                            <p>Sport</p>
+                        </div>
+                        <i class="fa-solid fa-heart fav-icon"></i>
+                    </div>
+                    <div class="img-container">
+                        <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                        <div class="car-details">
+                            <div class="car-detail">
+                                <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                <p>90L</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                <p>Manual</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-user-group detail-icon"></i>
+                                <p>2 People</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-rent">
+                        <div class="rent-cost">
+                            <p>$99.00/<span>day</span></p>
+                        </div>
+                        <button class="card-rent-btn">
+                            <a href="/index3.html">
+                                Rent Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heading">
+                        <div class="heading-details">
+                            <h2>Koenigsegg</h2>
+                            <p>Sport</p>
+                        </div>
+                        <i class="fa-solid fa-heart fav-icon"></i>
+                    </div>
+                    <div class="img-container">
+                        <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                        <div class="car-details">
+                            <div class="car-detail">
+                                <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                <p>90L</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                <p>Manual</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-user-group detail-icon"></i>
+                                <p>2 People</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-rent">
+                        <div class="rent-cost">
+                            <p>$99.00/<span>day</span></p>
+                        </div>
+                        <button class="card-rent-btn">
+                            <a href="/index3.html">
+                                Rent Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heading">
+                        <div class="heading-details">
+                            <h2>Koenigsegg</h2>
+                            <p>Sport</p>
+                        </div>
+                        <i class="fa-solid fa-heart fav-icon"></i>
+                    </div>
+                    <div class="img-container">
+                        <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                        <div class="car-details">
+                            <div class="car-detail">
+                                <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                <p>90L</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                <p>Manual</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-user-group detail-icon"></i>
+                                <p>2 People</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-rent">
+                        <div class="rent-cost">
+                            <p>$99.00/<span>day</span></p>
+                        </div>
+                        <button class="card-rent-btn">
+                            <a href="/index3.html">
+                                Rent Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heading">
+                        <div class="heading-details">
+                            <h2>Koenigsegg</h2>
+                            <p>Sport</p>
+                        </div>
+                        <i class="fa-solid fa-heart fav-icon"></i>
+                    </div>
+                    <div class="img-container">
+                        <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                        <div class="car-details">
+                            <div class="car-detail">
+                                <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                <p>90L</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                <p>Manual</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-user-group detail-icon"></i>
+                                <p>2 People</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-rent">
+                        <div class="rent-cost">
+                            <p>$99.00/<span>day</span></p>
+                        </div>
+                        <button class="card-rent-btn">
+                            <a href="/index3.html">
+                                Rent Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heading">
+                        <div class="heading-details">
+                            <h2>Koenigsegg</h2>
+                            <p>Sport</p>
+                        </div>
+                        <i class="fa-solid fa-heart fav-icon"></i>
+                    </div>
+                    <div class="img-container">
+                        <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                        <div class="car-details">
+                            <div class="car-detail">
+                                <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                <p>90L</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                <p>Manual</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-user-group detail-icon"></i>
+                                <p>2 People</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-rent">
+                        <div class="rent-cost">
+                            <p>$99.00/<span>day</span></p>
+                        </div>
+                        <button class="card-rent-btn">
+                            <a href="/index3.html">
+                                Rent Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heading">
+                        <div class="heading-details">
+                            <h2>Koenigsegg</h2>
+                            <p>Sport</p>
+                        </div>
+                        <i class="fa-solid fa-heart fav-icon"></i>
+                    </div>
+                    <div class="img-container">
+                        <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                        <div class="car-details">
+                            <div class="car-detail">
+                                <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                <p>90L</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                <p>Manual</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-user-group detail-icon"></i>
+                                <p>2 People</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-rent">
+                        <div class="rent-cost">
+                            <p>$99.00/<span>day</span></p>
+                        </div>
+                        <button class="card-rent-btn">
+                            <a href="/index3.html">
+                                Rent Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heading">
+                        <div class="heading-details">
+                            <h2>Koenigsegg</h2>
+                            <p>Sport</p>
+                        </div>
+                        <i class="fa-solid fa-heart fav-icon"></i>
+                    </div>
+                    <div class="img-container">
+                        <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                        <div class="car-details">
+                            <div class="car-detail">
+                                <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                <p>90L</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                <p>Manual</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-user-group detail-icon"></i>
+                                <p>2 People</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-rent">
+                        <div class="rent-cost">
+                            <p>$99.00/<span>day</span></p>
+                        </div>
+                        <button class="card-rent-btn">
+                            <a href="/index3.html">
+                                Rent Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heading">
+                        <div class="heading-details">
+                            <h2>Koenigsegg</h2>
+                            <p>Sport</p>
+                        </div>
+                        <i class="fa-solid fa-heart fav-icon"></i>
+                    </div>
+                    <div class="img-container">
+                        <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                        <div class="car-details">
+                            <div class="car-detail">
+                                <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                <p>90L</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                <p>Manual</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-user-group detail-icon"></i>
+                                <p>2 People</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-rent">
+                        <div class="rent-cost">
+                            <p>$99.00/<span>day</span></p>
+                        </div>
+                        <button class="card-rent-btn">
+                            <a href="/index3.html">
+                                Rent Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heading">
+                        <div class="heading-details">
+                            <h2>Koenigsegg</h2>
+                            <p>Sport</p>
+                        </div>
+                        <i class="fa-solid fa-heart fav-icon"></i>
+                    </div>
+                    <div class="img-container">
+                        <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                        <div class="car-details">
+                            <div class="car-detail">
+                                <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                <p>90L</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                <p>Manual</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-user-group detail-icon"></i>
+                                <p>2 People</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-rent">
+                        <div class="rent-cost">
+                            <p>$99.00/<span>day</span></p>
+                        </div>
+                        <button class="card-rent-btn">
+                            <a href="/index3.html">
+                                Rent Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heading">
+                        <div class="heading-details">
+                            <h2>Koenigsegg</h2>
+                            <p>Sport</p>
+                        </div>
+                        <i class="fa-solid fa-heart fav-icon"></i>
+                    </div>
+                    <div class="img-container">
+                        <img src="images/car_0.3d32b6b2cef2f68f936a.png" alt="">
+                        <div class="car-details">
+                            <div class="car-detail">
+                                <i class="fa-solid fa-gas-pump detail-icon"></i>
+                                <p>90L</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-circle-radiation detail-icon"></i>
+                                <p>Manual</p>
+                            </div>
+                            <div class="car-detail">
+                                <i class="fa-solid fa-user-group detail-icon"></i>
+                                <p>2 People</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-rent">
+                        <div class="rent-cost">
+                            <p>$99.00/<span>day</span></p>
+                        </div>
+                        <button class="card-rent-btn">
+                            <a href="/index3.html">
+                                Rent Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button class="show-more-btn">
+                    <a href="#">Show more car</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-heading">
+                <a href="#">morent</a>
+                <p>Our vision is to provide convenience and help increase your sales business.</p>
+            </div>
+            <div class="footer-sections">
+                <div class="footer-section">
+                    <div class="section-heading">
+                        <h2>About</h2>
+                    </div>
+                    <ul class="section-links">
+                        <li><a href="">How it works</a></li>
+                        <li><a href="">Featured</a></li>
+                        <li><a href="">Partnership</a></li>
+                        <li><a href="">Business Reltaion</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <div class="section-heading">
+                        <h2>Community</h2>
+                    </div>
+                    <ul class="section-links">
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Podcast</a></li>
+                        <li><a href="">Invite a friend</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <div class="section-heading">
+                        <h2>Socials</h2>
+                    </div>
+                    <ul class="section-links">
+                        <li><a href="">Discord</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-rights">
+            <div class="rights-title">
+                <h2>&copy;2022 MORENT.All rights reserved</h2>
+            </div>
+            <div class="footer-privacy">
+                <div class="policy">
+                    <a href="#">Privacy & Policy</a>
+                </div>
+                <div class="policy">
+                    <a href="#">Terms & Condition</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/js/all.min.js"
+        integrity="sha512-4dRoOomu6cU3VKBvnI1kykyZOqeQMAzo0KDfzQmd99ls4/uckwtxwHUedg/Z7n4lB4mwwWL3dcZW9ZlI3j7dAA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
